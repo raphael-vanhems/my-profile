@@ -1,0 +1,101 @@
+body{
+	background-color: #F9F6F1;
+	color: #665952;
+	font-family: roboto, monospace;
+	font-weight: 100;
+	letter-spacing: 0.3px;
+	font-size: 15px;
+	text-align: justify;
+
+}
+body > div {
+	width: 700px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #582C4D;
+	font-family: lobster, sans-serif;
+	font-size: 38px;
+	letter-spacing: 0.8px;
+	text-decoration: none;
+	text-align: center;
+}
+
+h2{
+	color: #A26769;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h3{
+	color: #A26769;
+	text-decoration: underline;
+}
+
+
+a{
+	color: #CB1C01;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: #0097F5;
+	text-decoration: none;
+}
+
+.profile-picture {
+	border-radius: 50%;
+}
+
+.profile-border {
+	border: 2px solid #582C4D;
+}
+
+.profile-center{
+	width: 175px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 35px;
+}
+
+.logo{
+	font-size: 30px;
+}
+
+.card-white{
+	background-color: white;
+	margin-top: 30px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.centralised{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#margin-rl{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.container-flex {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 720px) {
+	body > div {
+		width: 100%;
+	}
+}
+
+.police-clear{
+	color: #F9F6F1;
+	text-decoration: underline;
+}
+
